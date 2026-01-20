@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <header class="w-full bg-white shadow p-4">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex items-center justify-between h-16">
+
+      <div class="flex items-center gap-2">
+        <img src="./src/image 3 (3).png" alt="Logo" class="h-8 w-auto">
+        <span class="font-bold text-blue-900 text-sm hidden sm:block">
+        
+        </span>
+      </div>
+
+      <nav class="hidden md:flex gap-6 text-gray-700 font-medium">
+        <a href="#" class="hover:text-blue-700">Главная</a>
+        <a href="#" class="hover:text-blue-700">О нас</a>
+        <a href="#" class="hover:text-blue-700">Калькулятор</a>
+        <a href="#" class="hover:text-blue-700">Кейсы</a>
+        <a href="#" class="hover:text-blue-700">Контакты</a>
+      </nav>
+
+
+      <div class="hidden md:block">
+        <button class="bg-blue-900 text-white px-4 py-2 rounded-md hover:bg-blue-800">
+          📞 Заказать звонок
+        </button>
+      </div>
+
+      
+      <button id="menuBtn" class="md:hidden">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+    </div>
+  </div>
+
+  <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+    <nav class="flex flex-col p-4 gap-4 text-gray-700">
+      <a href="#">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Калькулятор</a>
+      <a href="#">Кейсы</a>
+      <a href="#">Контакты</a>
+      <button class="bg-blue-900 text-white py-2 rounded-md">
+        📞 Заказать звонок
+      </button>
+    </nav>
+  </div>
+</header>
+</body>
+</html>
